@@ -51,7 +51,9 @@ STRIPE_WEBHOOK_SECRET=<your webhook key>
 
 ### Provisioning the Azure resources
 
-Once your Stripe keys have been configured, you can provision the Azure resources required for this scenario. To do this, run the following command:
+Once your Stripe keys have been configured, you can provision the Azure resources required for this scenario. Below are the detailed steps for provisioning the Azure resources along with guidance on how to troubleshoot any failures.
+
+To provision the Azure resources, run the following command:
 
 ```bash
 # Export the environment variables from the .stripe.env file
@@ -61,10 +63,20 @@ export $(cat .stripe.env | xargs)
 azd auth login
 
 # Provision infrastructure and the azd development environment
-azd provision
+# Provision infrastructure and the azd development environment
+# Add error handling for provisioning
+if [ $? -ne 0 ]; then
+  echo "Provisioning failed. Please check the configuration and try again."
+  exit 1
+fi
 
 # Package the app using the environment variables in .azure/env + deploy the code on Azure
 azd deploy
+# Add error handling for deployment
+if [ $? -ne 0 ]; then
+  echo "Deployment failed. Please troubleshoot and try again."
+  exit 1
+fi
 ```
 
 Except for the first command, the deployment commands are the same as the ones used in the [Deploy to Azure](../README.md#deploy-to-azure) guide.
