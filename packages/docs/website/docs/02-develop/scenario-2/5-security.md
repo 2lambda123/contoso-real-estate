@@ -5,6 +5,8 @@ title: Security & Identity
 :::tip GUIDANCE
 Any information about what is provided for security/identity and what is not.
 
+- Securely store database connection strings and secrets in the corresponding .env file, or in Azure Key Vault, or in the Azure Static Web Apps configuration tab as remote Environment Variables.
+
 - RBAC
 - Easy auth
 - MSAL
@@ -13,6 +15,7 @@ Any information about what is provided for security/identity and what is not.
 - CORS
 - AAD apps
 - 3rd party auth (GitHub, Stripe, etc)
+- Use Azure Key Vault or Azure Static Web Apps configuration for storing and accessing secrets
   :::
 
 ## Secrets
