@@ -6,7 +6,7 @@ title: Pipeline Automation
 
 What automation is used to complete this scenario?
 
-- Resource management scripts (Az CLI, AZD cli, SWA CLI, Func CLI, PowerShell)
+- Resource management scripts (Az CLI, AZD cli, SWA CLI, Func CLI, PowerShell, GH CLI, Stripe CLI, Mongo CLI)
 - GitHub Actions, Azure DevOps Pipelines
 - AAD automation
 - Custom or 3rd party automation
@@ -15,7 +15,7 @@ What automation is used to complete this scenario?
   - Mongo CLI
 - Any `hidden` or poorly known areas such as https://resources.azure.com - explain why you needed it so that can translate into content.
 
-All automation must include cleanup/teardown scripts
+All automation must include cleanup/teardown scripts. This is important to ensure that all resources created during the automation processes are properly managed.
 :::
 
 ## GitHub Actions
