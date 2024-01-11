@@ -7,7 +7,7 @@ title: Pipeline Automation
 What automation is used to complete this scenario?
 
 - Resource management scripts (Az CLI, AZD cli, SWA CLI, Func CLI, PowerShell)
- \- GitHub Actions, Azure DevOps Pipelines, AAD automation, Custom or 3rd party automation
+ \- GitHub Actions and Azure DevOps Pipelines
 - GitHub Actions, Azure DevOps Pipelines
 - AAD automation
 - Custom or 3rd party automation
