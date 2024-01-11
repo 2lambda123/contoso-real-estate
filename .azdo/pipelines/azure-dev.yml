@@ -14,13 +14,15 @@ steps:
       scriptType: bash
       scriptLocation: inlineScript
       inlineScript: |
+        azd deploy --no-prompt
+        
         az group create --name MyResourceGroup --location eastus
         az appservice plan create --name MyPlan --resource-group MyResourceGroup --sku B1
         az webapp create --name MyWebApp --resource-group MyResourceGroup --plan MyPlan
     env:
-      AZURE_SUBSCRIPTION_ID: "12345"
-      AZURE_ENV_NAME: "myenv"
-      AZURE_LOCATION: "East US"
+      AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      AZURE_ENV_NAME: ${{ secrets.AZURE_ENV_NAME }}
+      AZURE_LOCATION: ${{ secrets.AZURE_LOCATION }}
       STRIPE_PUBLIC_KEY: "stripubkey"
       STRIPE_SECRET_KEY: "strisecretkey"
       STRIPE_WEBHOOK_SECRET: "striwebhooksecret"
