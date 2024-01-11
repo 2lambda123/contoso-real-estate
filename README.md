@@ -14,6 +14,9 @@ You can navigate through the documentation using the table of contents below:
   - [Simplified Flow Diagram](#simplified-flow-diagram)
   - [Components](#components)
     - [Frontend](#frontend)
+  - [Fork the repository](#fork-the-repository)
+  - [Create a new GitHub Codespaces environment](#create-a-new-github-codespaces-environment)
+  - [Codespaces startup note](#codespaces-startup-note)
     - [Backend](#backend)
     - [DevOps](#devops)
     - [Developer tools](#developer-tools)
@@ -153,11 +156,14 @@ This project is optimized for use with [GitHub Codespaces](https://github.com/fe
    _Note: Codespaces will show a series of windows on the right side of the screen while starting all servers. This is normal and expected._
 1. Once all dev servers have started, the following URLs will be available:
 
+   > _Note: Codespaces will show a series of windows on the right side of the screen while starting all servers. This is normal and expected._
+
 | Application    | URL                                                      | Port |
 | -------------- | -------------------------------------------------------- | ---- |
 | Portal         | https://YOUR-REPO-4280.preview.app.github.dev:4280       | 4280 |
 | Blog           | https://YOUR-REPO-3000.preview.app.github.dev:3000       | 3000 |
 | Strapi CMS     | https://YOUR-REPO-1337.preview.app.github.dev:1337/admin | 1337 |
+| Serverless API | https://YOUR-REPO-7071.preview.app.github.dev:7071/api/  | 7071 |
 | Serverless API | https://YOUR-REPO-7071.preview.app.github.dev:7071/api/  | 7071 |
 | Stripe API     | https://YOUR-REPO-4242.preview.app.github.dev:4242       | 4242 |
 
