@@ -12,16 +12,16 @@ Within the `packages` folder, you will find the three projects that make up this
 
 ## Running this scenario
 
-_Note: This scenario has been optimised for use with [GitHub Codespaces](https://github.com/features/codespaces), a development environment hosted in the GitHub cloud, as we prepared predefined environment with everything installed._
+_Note: This scenario has been optimised for use with [GitHub Codespaces](https://github.com/features/codespaces), a development environment hosted in the GitHub cloud, as we prepared predefined environment with everything installed, but it can also be run locally without Codespaces._
 
 ### Install the required Node.js packages
 
-The repo is a monorepo, and thus contains all the components from all the scenarios. To support this [npm workspaces](https://docs.npmjs.com/cli/using-npm/workspaces) has been configured, and as a result, all scenarios packages will be installed.
+The repo is a monorepo, and thus contains all the components from all the scenarios. To support this [npm workspaces](https://docs.npmjs.com/cli/using-npm/workspaces) has been configured, and as a result, to support this, you can manually install the required Node.js packages by executing the following command.
 
 To install all packages required run the following command:
 
 ```bash
-npm install --workspaces
+You can manually install the required Node.js packages by executing the following command: npm install --workspaces
 ```
 
 _Note: The devcontainer will automatically execute this command on creation, but you can execute it manually if you wish to see the installation happen._
