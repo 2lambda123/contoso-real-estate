@@ -95,15 +95,15 @@ _Note: The database provided in `DATABASE_NAME` will need to exist on the server
 
 Also, please install the following dependencies:
 
-- Install `azd`
+- To install the `azd` CLI, follow the steps below:
 
   - `azd` is use to provision, manage and deploy the applicaton to Azure. Follow the [install guide for your OS](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
-  - Note: `azd` is not required if you wish to only rely on GitHub Actions or Azure Pipelines to deploy using the provided CI/CD pipelines
+  - Note: `azd` is not required if you wish to only rely on GitHub Actions or Azure Pipelines to deploy using the provided CI/CD pipelines. If GitHub Actions or Azure Pipelines are used, verify that the necessary workflow files are configured correctly and are triggering the expected actions.
 
-- Install Node.js
+- To install Node.js, follow the steps below:
   - It is encouraged that a Node.js version manager, such as [nvm](https://nvm.sh), is used as a `.nvmrc` file is provided to specify the version of Node.js that is required
 
-### Running in GitHub Codespaces
+### Verifying Dependencies and Environment Variables
 
 An alternative way to run the environment is using [GitHub Codespaces](https://github.com/codespaces), which will use the devcontainer definition, but create a remote containerised environment, rather than running the environment locally.
 
