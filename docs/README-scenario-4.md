@@ -28,9 +28,18 @@ _Note: The devcontainer will automatically execute this command on creation, but
 
 ### Configuring Stripe
 
-This scenario uses [Stripe](https://stripe.com) to handle payments. To use Stripe, you will need to create an account and obtain a set of API keys.
+1. Create a free Stripe account here: https://dashboard.stripe.com/register
+2. Once you have created your account, you will be redirected to the Stripe dashboard. Click on the `Developers` menu item, and then click on the `API keys` tab on the left.
+3. Copy the `Public key` and `Secret key` and paste them into a new `.stripe.env` file in the root folder, like this:
 
-> Note: it's possible to run the app without configuring Stripe at all: in that case, the payments will be mocked and accepted directly, so you can still test the flow.
+```bash
+STRIPE_PUBLIC_KEY=<your public key>
+STRIPE_SECRET_KEY=<your secret key>
+```
+
+4. Click on the `Webhooks` tab on the left, and then select the `Add endpoint` button. For the endpoint URL, enter `http://dummy.com` and choose the `Select events` option. Search for `checkout`, and enable the events `checkout.session.completed` and `checkout.session.expired`. Then click on the `Add endpoint` button. **Note that the endpoint URL will need to be updated later on. To use Stripe, you will need to create an account and obtain a set of API keys.
+
+> **Note:** if you want to test the Stripe integration, you can use the [Stripe test cards](https://stripe.com/docs/testing#cards). It's also possible to run the app without configuring Stripe at all: in that case, the payments will be mocked and accepted directly, so you can still test the flow.
 
 1. Create a free Stripe account here: https://dashboard.stripe.com/register
 2. Once you have created your account, you will be redirected to the Stripe dashboard. Click on the `Developers` menu item, and then click on the `API keys` tab on the left.
