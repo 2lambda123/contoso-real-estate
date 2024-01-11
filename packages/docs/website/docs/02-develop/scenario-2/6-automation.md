@@ -27,4 +27,4 @@ If you would like to learn more about GitHub Actions, follow [this link](https:/
 
 ## Static Web Apps CLI
 
-The Contoso Real Estate Portal application is deployed to Azure Static Web Apps. To facilitate the resource management, we are using the Azure Static Web Apps CLI tool, as part of the project configuration and pipelines. This command line tool has extensive documentation, that can be found [here](https://azure.github.io/static-web-apps-cli/)
+The Contoso Real Estate Portal application is deployed to Azure Static Web Apps. The Azure Static Web Apps CLI is used to manage and configure resources for the project, as well as to integrate it with the CI/CD pipelines. This command line tool has extensive documentation, which can be found [here](https://azure.github.io/static-web-apps-cli/)
