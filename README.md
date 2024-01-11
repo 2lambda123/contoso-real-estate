@@ -134,14 +134,14 @@ In order use [API Management](https://azure.microsoft.com/products/api-managemen
 ### DevOps
 
 - [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli) - Provisioning, managing and deploying the application to Azure.
-- [GitHub Actions](https://github.com/features/actions) - The CI/CD pipelines.
-- [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview) - The CI/CD pipelines.
+- [GitHub Actions](https://github.com/features/actions) - Automate workflows, including building, testing, and deploying code.
+- [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/overview) - Command-line interface (CLI) for managing Azure resources and streamlining CI/CD pipelines.
 
 ### Developer tools
 
-- [Visual Studio Code](https://code.visualstudio.com/) - The local IDE experience.
-- [GitHub Codespaces](https://github.com/features/codespaces) - The cloud IDE experience.
-- [Azure Static Web Apps CLI](https://azure.github.io/static-web-apps-cli/) - Accelerates the process of building cloud apps on Azure.
+- [Visual Studio Code](https://code.visualstudio.com/) - Lightweight, open-source IDE with support for debugging, version control, and extensions.
+- [GitHub Codespaces](https://github.com/features/codespaces) - Cloud-hosted development environments accessible from any browser, supporting multiple languages and extensions.
+- [Azure Static Web Apps CLI](https://azure.github.io/static-web-apps-cli/) - Command-line interface (CLI) for building and deploying Azure Static Web Apps.
 
 ## Development environment
 
