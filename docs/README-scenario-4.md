@@ -64,10 +64,12 @@ Once your Stripe keys have been configured, you can provision the Azure resource
 
 ```bash
 # Export the environment variables from the .stripe.env file
-export $(cat .stripe.env | xargs)
+export AZURE_SUBSCRIPTION_ID=your_subscription_id
+export AZURE_ENV_NAME=your_env_name
+export AZURE_LOCATION=your_location
 
 # Login to azd (only required once the first time)
-azd auth login
+az login
 
 # Provision infrastructure and the azd development environment
 azd provision
