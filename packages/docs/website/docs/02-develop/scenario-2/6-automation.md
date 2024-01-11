@@ -24,6 +24,4 @@ When an application is deployed to Azure Static Web Apps, a workflow file is aut
 
 If you would like to extend the workflow file with custom or marketplace actions, refer to the [GitHub Marketplace](https://github.com/marketplace?type=actions) for available actions. You can also learn more about GitHub Actions in the [GitHub Actions documentation](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
 
-## Static Web Apps CLI
 
-The Contoso Real Estate Portal application is deployed to Azure Static Web Apps. To facilitate the resource management, we are using the Azure Static Web Apps CLI tool, as part of the project configuration and pipelines. This command line tool has extensive documentation, that can be found [here](https://azure.github.io/static-web-apps-cli/)
