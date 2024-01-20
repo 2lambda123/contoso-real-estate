@@ -1,0 +1,993 @@
+repo_name: 2lambda123/contoso-real-estate
+report_id: '098391e6b64f8ad68e15fc470f405b50'
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:57:37+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 74
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/scripts/database/dumps/strapi_20230202.sql
+  detection_source: scripts/database/dumps/strapi_20230202.sql
+  last_updated_by: Yohan Lasorsa
+  last_updated_on: 2023-02-15 10:02:35.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate
+  detection_source: Repo Metadata
+- name: Angular
+  description: A platform for building mobile and desktop web applications
+  website_url: https://angular.io
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Fastify
+  description: Fast and low overhead web framework, for Node.js
+  website_url: http://www.fastify.io/
+  version: 4.23.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7609/24939410.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/stripe/package.json
+  last_updated_by: Yohan Lasorsa
+  last_updated_on: 2023-09-27 16:30:02.000000000 Z
+- name: Next.js
+  description: 'A small framework for server-rendered universal JavaScript apps '
+  website_url: https://nextjs.org/
+  version: 13.5.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: Aaron Powell
+  last_updated_on: 2023-01-18 10:26:35.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: '18.15'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Wassim Chegham
+  last_updated_on: 2023-05-10 08:26:45.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: thivy
+  last_updated_on: 2023-05-10 08:20:47.000000000 Z
+- name: RxJS
+  description: The Reactive Extensions for JavaScript
+  website_url: http://reactivex.io/rxjs/
+  version: 6.6.7
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1796/984368.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Wassim Chegham
+  last_updated_on: 2022-09-08 16:32:17.000000000 Z
+- name: UIkIt
+  description: A lightweight and modular front-end framework for developing fast and
+    powerful web interfaces
+  website_url: http://www.getuikit.com/
+  version: 3.16.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1107/2247444e82685c05034fc296fc331472.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: Aaron Powell
+  last_updated_on: 2023-01-18 10:26:35.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/portal/package.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Natalia Venditto
+  last_updated_on: 2023-04-16 10:35:14.000000000 Z
+- name: Heroku Postgres
+  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
+    database, PostgreSQL
+  website_url: https://www.heroku.com/postgres
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: PostgreSQL as a Service
+  image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: '5.0'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: sinedied
+  last_updated_on: 2023-03-06 16:54:10.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/docs/website/babel.config.js
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Yohan Lasorsa
+  last_updated_on: 2023-03-08 12:51:13.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/.github/workflows/azure-dev.yml
+  detection_source: ".github/workflows/azure-dev.yml"
+  last_updated_by: Wassim Chegham
+  last_updated_on: 2023-05-15 09:41:35.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Wassim Chegham
+  last_updated_on: 2022-09-08 16:32:17.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: sinedied
+  last_updated_on: 2023-03-08 12:41:40.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Wassim Chegham
+  last_updated_on: 2022-09-08 16:31:08.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Azure Functions
+  description: Listen and react to events across your stack
+  website_url: https://azure.microsoft.com/en-us/services/functions/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4851/default_1c86e0d45d685cb73aa9a39a658159f6199de49d.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/stripe/package.json
+  detection_source: packages/stripe/package.json
+  last_updated_by: Yohan Lasorsa
+  last_updated_on: 2023-09-27 16:30:02.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  version: '5.0'
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: sinedied
+  last_updated_on: 2023-03-06 16:54:10.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/api-v4/package.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular-devkit/build-angular"
+  description: Angular Webpack Build Facade
+  package_url: https://www.npmjs.com/@angular-devkit/build-angular
+  version: 16.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16162/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/animations"
+  description: Angular - animations integration with web-animations
+  package_url: https://www.npmjs.com/@angular/animations
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16010/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/cdk"
+  description: Angular Material Component Development Kit
+  package_url: https://www.npmjs.com/@angular/cdk
+  version: 16.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16358/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/cli"
+  description: CLI tool for Angular
+  package_url: https://www.npmjs.com/@angular/cli
+  version: 16.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16000/default_976847109ccfe67d00b33d9ff71329b6e82f5f89.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/common"
+  description: Angular - commonly needed directives and services
+  package_url: https://www.npmjs.com/@angular/common
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15913/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/compiler"
+  description: Angular - the compiler library
+  package_url: https://www.npmjs.com/@angular/compiler
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15917/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/compiler-cli"
+  description: Angular - the compiler CLI for Node.js
+  package_url: https://www.npmjs.com/@angular/compiler-cli
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15927/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/forms"
+  description: Angular - directives and services for creating forms
+  package_url: https://www.npmjs.com/@angular/forms
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15944/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/material"
+  description: Angular Material
+  package_url: https://www.npmjs.com/@angular/material
+  version: 16.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16444/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/platform-browser"
+  description: Angular - library for using Angular in a web browser
+  package_url: https://www.npmjs.com/@angular/platform-browser
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15921/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/platform-browser-dynamic"
+  description: Angular - library for using Angular in a web browser with JIT compilation
+  package_url: https://www.npmjs.com/@angular/platform-browser-dynamic
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15933/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@angular/router"
+  description: Angular - the routing library
+  package_url: https://www.npmjs.com/@angular/router
+  version: 16.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15965/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@apollo/client"
+  description: A fully-featured caching GraphQL client
+  package_url: https://www.npmjs.com/@apollo/client
+  version: 3.8.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 6.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Surya V
+  last_updated_on: 2023-09-12 13:09:47.000000000 Z
+- name: "@fortawesome/free-brands-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-brands-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18314/default_8c7316b1ad57adb78204233fc4608152c3b49ac6.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Surya V
+  last_updated_on: 2023-09-12 13:09:47.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 6.4.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Surya V
+  last_updated_on: 2023-09-12 13:09:47.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/packages/docs/website/package-lock.json
+  detection_source: packages/docs/website/package.json
+  last_updated_by: Nitya Narasimhan
+  last_updated_on: 2023-07-31 13:53:44.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Natalia Venditto
+  last_updated_on: 2023-06-19 11:40:45.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@types/pg"
+  description: TypeScript definitions for pg
+  package_url: https://www.npmjs.com/@types/pg
+  version: 8.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17947/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.62.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.62.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: sinedied
+  last_updated_on: 2023-03-06 16:54:10.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 13.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: thivy
+  last_updated_on: 2023-05-10 08:20:47.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: thivy
+  last_updated_on: 2023-05-10 08:20:47.000000000 Z
+- name: lodash.set
+  description: The lodash method `_.set` exported as a module
+  package_url: https://www.npmjs.com/lodash.set
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16998/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog-cms/package.json
+  last_updated_by: Aaron Powell
+  last_updated_on: 2023-01-18 10:26:35.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/stripe/package.json
+  last_updated_by: sinedied
+  last_updated_on: 2023-02-14 14:27:33.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: qs
+  description: A querystring parser that supports nesting and arrays
+  package_url: https://www.npmjs.com/qs
+  version: 6.11.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: Aaron Powell
+  last_updated_on: 2023-01-18 10:26:35.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: thivy
+  last_updated_on: 2023-05-10 08:20:47.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/blog/package.json
+  last_updated_by: thivy
+  last_updated_on: 2023-05-10 08:20:47.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: sinedied
+  last_updated_on: 2023-03-08 13:31:58.000000000 Z
+- name: tap
+  description: A Test-Anything-Protocol library for JavaScript
+  package_url: https://www.npmjs.com/tap
+  version: 16.3.8
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16027/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/stripe/package.json
+  last_updated_by: sinedied
+  last_updated_on: 2023-01-31 15:51:17.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/stripe/package.json
+  last_updated_by: sinedied
+  last_updated_on: 2023-02-14 14:27:33.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.6.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Natalia Venditto
+  last_updated_on: 2022-09-28 07:13:15.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: yamljs
+  description: Standalone JavaScript YAML 1.2 Parser &amp; Encoder
+  package_url: https://www.npmjs.com/yamljs
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16676/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/api-v4/package.json
+  last_updated_by: Glaucia Lemos
+  last_updated_on: 2023-10-18 10:23:49.000000000 Z
+- name: zone.js
+  description: Zones for JavaScript
+  package_url: https://www.npmjs.com/zone.js
+  version: 0.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15915/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
+  detection_source_url: https://github.com/2lambda123/contoso-real-estate/blob/main/package-lock.json
+  detection_source: packages/portal/package.json
+  last_updated_by: Natalia Venditto
+  last_updated_on: 2023-06-19 11:40:45.000000000 Z
