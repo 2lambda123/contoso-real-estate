@@ -20,7 +20,7 @@ All automation must include cleanup/teardown scripts. This is important to ensur
 
 ## GitHub Actions
 
-When an application is deployed to Azure Static Web Apps, a workflow file is automatically generated and pushed to the GitHub repository. This file contains the necessary instructions to enable CI/CD integrations for build and deployment, and can be extended with additional custom or marketplace actions.
+GitHub Actions automates the deployment of applications to Azure Static Web Apps by generating a workflow file that is automatically pushed to the GitHub repository. This file contains the necessary instructions to enable CI/CD integrations for build and deployment, and it can be extended with additional custom or marketplace actions.
 
 If you would like to extend the workflow file with custom or marketplace actions, refer to the [GitHub Marketplace](https://github.com/marketplace?type=actions) for available actions. You can also learn more about GitHub Actions in the [GitHub Actions documentation](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions).
 
