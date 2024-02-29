@@ -3,33 +3,33 @@
 ## Tech Stack
 2lambda123/contoso-real-estate is built on the following main stack:
 
-- [Stripe](https://stripe.com) – Payment Services
-- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Python](https://www.python.org) – Languages
+- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [TypeScript](http://www.typescriptlang.org) – Languages
+- [Angular](https://angular.io) – Javascript MVC Frameworks
+- [Fastify](http://www.fastify.io/) – Microframeworks (Backend)
+- [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [React](https://reactjs.org/) – Javascript UI Libraries
-- [PostgreSQL](http://www.postgresql.org/) – Databases
-- [MongoDB](http://www.mongodb.com/) – Databases
-- [UIkIt](http://www.getuikit.com/) – Front-End Frameworks
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Mongoose](http://mongoosejs.com/) – Object Document Mapper (ODM)
-- [TypeScript](http://www.typescriptlang.org) – Languages
 - [RxJS](http://reactivex.io/rxjs/) – Concurrency Frameworks
-- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [UIkIt](http://www.getuikit.com/) – Front-End Frameworks
+- [GraphQL](http://graphql.org/) – Query Languages
 - [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
+- [MongoDB](http://www.mongodb.com/) – Databases
+- [Mongoose](http://mongoosejs.com/) – Object Document Mapper (ODM)
+- [PostgreSQL](http://www.postgresql.org/) – Databases
 - [Babel](http://babeljs.io/) – JavaScript Compilers
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - [Docker Compose](https://github.com/docker/compose) – Container Tools
 - [ESLint](http://eslint.org/) – Code Review
-- [Angular](https://angular.io) – Javascript MVC Frameworks
-- [GraphQL](http://graphql.org/) – Query Languages
-- [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) – Serverless / Task Processing
-- [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
-- [Prettier](https://prettier.io/) – Code Review
-- [Fastify](http://www.fastify.io/) – Microframeworks (Backend)
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- [Prettier](https://prettier.io/) – Code Review
+- [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
+- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) – Serverless / Task Processing
+- [Stripe](https://stripe.com) – Payment Services
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -39,33 +39,33 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/contoso-real-estate is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
-- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg' alt='Angular'/> [Angular](https://angular.io) – Javascript MVC Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/7609/24939410.png' alt='Fastify'/> [Fastify](http://www.fastify.io/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/5936/nextjs.png' alt='Next.js'/> [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1107/2247444e82685c05034fc296fc331472.png' alt='UIkIt'/> [UIkIt](http://www.getuikit.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg' alt='Mongoose'/> [Mongoose](http://mongoosejs.com/) – Object Document Mapper (ODM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1796/984368.png' alt='RxJS'/> [RxJS](http://reactivex.io/rxjs/) – Concurrency Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1107/2247444e82685c05034fc296fc331472.png' alt='UIkIt'/> [UIkIt](http://www.getuikit.com/) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/3820/12972006.png' alt='GraphQL'/> [GraphQL](http://graphql.org/) – Query Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2516/original.png' alt='Heroku Postgres'/> [Heroku Postgres](https://www.heroku.com/postgres) – PostgreSQL as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg' alt='Mongoose'/> [Mongoose](http://mongoosejs.com/) – Object Document Mapper (ODM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - <img width='25' height='25' src='https://img.stackshare.io/service/3136/docker-compose.png' alt='Docker Compose'/> [Docker Compose](https://github.com/docker/compose) – Container Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3745/cb8U-gL6_400x400.jpg' alt='Angular'/> [Angular](https://angular.io) – Javascript MVC Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/3820/12972006.png' alt='GraphQL'/> [GraphQL](http://graphql.org/) – Query Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'/> [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/4851/default_1c86e0d45d685cb73aa9a39a658159f6199de49d.png' alt='Azure Functions'/> [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) – Serverless / Task Processing
-- <img width='25' height='25' src='https://img.stackshare.io/service/5936/nextjs.png' alt='Next.js'/> [Next.js](https://nextjs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/7609/24939410.png' alt='Fastify'/> [Fastify](http://www.fastify.io/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'/> [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
+- <img width='25' height='25' src='https://img.stackshare.io/service/4851/default_1c86e0d45d685cb73aa9a39a658159f6199de49d.png' alt='Azure Functions'/> [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) – Serverless / Task Processing
+- <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -76,7 +76,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/contoso-real-estate](https://github.com/2lambda123/contoso-real-estate)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|74<br/>Tools used|01/09/24 <br/>Report generated|
+|74<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -422,7 +422,7 @@ Full tech stack [here](/techstack.md)
 |[eslint-config-next](https://www.npmjs.com/eslint-config-next)|v13.5.3|05/10/23|thivy |N/A|N/A|
 |[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v8.10.0|10/18/23|Glaucia Lemos |MIT|N/A|
 |[eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)|v4.2.1|05/10/23|thivy |MIT|N/A|
-|[lodash.set](https://www.npmjs.com/lodash.set)|v4.3.2|01/18/23|Aaron Powell |MIT|N/A|
+|[lodash.set](https://www.npmjs.com/lodash.set)|v4.3.2|01/18/23|Aaron Powell |MIT|[CVE-2020-8203](https://github.com/advisories/GHSA-p6mc-m468-83gw) (High)|
 |[node-fetch](https://www.npmjs.com/node-fetch)|v2.7.0|02/14/23|sinedied |MIT|N/A|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|10/18/23|Glaucia Lemos |MIT|N/A|
 |[pg](https://www.npmjs.com/pg)|v8.11.3|10/18/23|Glaucia Lemos |MIT|N/A|
